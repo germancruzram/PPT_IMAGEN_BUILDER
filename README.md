@@ -4,108 +4,58 @@ Creador de diapostivas con imágenes
 
 # Mapa Mental del Sistema PPT-SLIDE-BUILDER
 
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-  <!-- Título -->
-  <text x="40" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="#008080">📊 Mapa Mental del Sistema PPT-SLIDE-BUILDER</text>
-  
-  <!-- Nodo central (círculo más grande) -->
-  <circle cx="400" cy="300" r="70" fill="#4285F4" />
-  <text x="400" y="290" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">📊 PPT-SLIDE</text>
-  <text x="400" y="310" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">BUILDER</text>
-  
-  <!-- Nodos principales (rombos) -->
-  <!-- Procesamiento de Imágenes -->
-  <polygon points="250,150 290,110 330,150 290,190" fill="#5DADE2" stroke="#2E86C1" stroke-width="1" />
-  <text x="290" y="145" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">🖼️ Procesamiento</text>
-  <text x="290" y="160" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">de Imágenes</text>
-  
-  <!-- Formatos de Diapositiva -->
-  <polygon points="250,300 290,260 330,300 290,340" fill="#5DADE2" stroke="#2E86C1" stroke-width="1" />
-  <text x="290" y="295" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">📐 Formatos de</text>
-  <text x="290" y="310" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Diapositiva</text>
-  
-  <!-- Interfaz de Usuario -->
-  <polygon points="250,450 290,410 330,450 290,490" fill="#5DADE2" stroke="#2E86C1" stroke-width="1" />
-  <text x="290" y="445" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">🖱️ Interfaz de</text>
-  <text x="290" y="460" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Usuario</text>
-  
-  <!-- Gestión de Archivos -->
-  <polygon points="550,150 590,110 630,150 590,190" fill="#5DADE2" stroke="#2E86C1" stroke-width="1" />
-  <text x="590" y="145" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">📁 Gestión de</text>
-  <text x="590" y="160" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Archivos</text>
-  
-  <!-- Diseño de Diapositivas -->
-  <polygon points="550,300 590,260 630,300 590,340" fill="#5DADE2" stroke="#2E86C1" stroke-width="1" />
-  <text x="590" y="295" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">🎨 Diseño de</text>
-  <text x="590" y="310" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Diapositivas</text>
-  
-  <!-- Seguridad -->
-  <polygon points="550,450 590,410 630,450 590,490" fill="#5DADE2" stroke="#2E86C1" stroke-width="1" />
-  <text x="590" y="450" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">🔒 Seguridad</text>
-  
-  <!-- Conexiones al nodo central -->
-  <line x1="330" y1="150" x2="350" y2="250" stroke="#666" stroke-width="1.5" />
-  <line x1="330" y1="300" x2="340" y2="300" stroke="#666" stroke-width="1.5" />
-  <line x1="330" y1="450" x2="350" y2="350" stroke="#666" stroke-width="1.5" />
-  <line x1="550" y1="150" x2="450" y2="250" stroke="#666" stroke-width="1.5" />
-  <line x1="550" y1="300" x2="460" y2="300" stroke="#666" stroke-width="1.5" />
-  <line x1="550" y1="450" x2="450" y2="350" stroke="#666" stroke-width="1.5" />
-  
-  <!-- Nodos secundarios (cajas) -->
-  <!-- Para Procesamiento de Imágenes -->
-  <rect x="100" y="110" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="155" y="130" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">🔍 Preservar aspecto</text>
-  <line x1="210" y1="125" x2="250" y2="150" stroke="#666" stroke-width="1" />
-  
-  <rect x="100" y="160" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="155" y="180" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📁 JPG, JPEG, PNG</text>
-  <line x1="210" y1="175" x2="250" y2="150" stroke="#666" stroke-width="1" />
-  
-  <!-- Para Formatos de Diapositiva -->
-  <rect x="100" y="260" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="155" y="280" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📏 Estándar 4:3</text>
-  <line x1="210" y1="275" x2="250" y2="300" stroke="#666" stroke-width="1" />
-  
-  <rect x="100" y="310" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="155" y="330" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">🖥️ Panorámica 16:9</text>
-  <line x1="210" y1="325" x2="250" y2="300" stroke="#666" stroke-width="1" />
-  
-  <!-- Para Interfaz de Usuario -->
-  <rect x="100" y="410" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="155" y="430" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📑 Pestañas</text>
-  <line x1="210" y1="425" x2="250" y2="450" stroke="#666" stroke-width="1" />
-  
-  <rect x="100" y="460" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="155" y="480" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">ℹ️ Información</text>
-  <line x1="210" y1="475" x2="250" y2="450" stroke="#666" stroke-width="1" />
-  
-  <!-- Para Gestión de Archivos -->
-  <rect x="650" y="110" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="705" y="130" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📂 Selección carpeta</text>
-  <line x1="650" y1="125" x2="630" y2="150" stroke="#666" stroke-width="1" />
-  
-  <rect x="650" y="160" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="705" y="180" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">💾 Guardar PPTX</text>
-  <line x1="650" y1="175" x2="630" y2="150" stroke="#666" stroke-width="1" />
-  
-  <!-- Para Diseño de Diapositivas -->
-  <rect x="650" y="260" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="705" y="280" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📐 Cuadrícula 2x2</text>
-  <line x1="650" y1="275" x2="630" y2="300" stroke="#666" stroke-width="1" />
-  
-  <rect x="650" y="310" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="705" y="330" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📏 Línea separadora</text>
-  <line x1="650" y1="325" x2="630" y2="300" stroke="#666" stroke-width="1" />
-  
-  <!-- Para Seguridad -->
-  <rect x="650" y="410" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="705" y="430" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">🔑 Verificación</text>
-  <line x1="650" y1="425" x2="630" y2="450" stroke="#666" stroke-width="1" />
-  
-  <rect x="650" y="460" width="110" height="30" rx="5" ry="5" fill="#E8F4F8" stroke="#AED6F1" stroke-width="1" />
-  <text x="705" y="480" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" dominant-baseline="middle">📜 Licencia</text>
-  <line x1="650" y1="475" x2="630" y2="450" stroke="#666" stroke-width="1" />
-</svg>
+graph LR
+    %% Título central
+    PPT_BUILDER(("📊 PPT-SLIDE\nBUILDER"))
+
+    %% Ramas principales hacia la izquierda
+    ProcImg{"🖼️ Procesamiento\nde Imágenes"} --> PPT_BUILDER
+    FormatSlide{"📐 Formatos de\nDiapositiva"} --> PPT_BUILDER
+    UI{"🖱️ Interfaz de\nUsuario"} --> PPT_BUILDER
+
+    %% Ramas principales hacia la derecha
+    PPT_BUILDER --> FileManage{"📁 Gestión de\nArchivos"}
+    PPT_BUILDER --> SlideDesign{"🎨 Diseño de\nDiapositivas"}
+    PPT_BUILDER --> Security{"🔒 Seguridad"}
+
+    %% Subramas de Procesamiento de Imágenes (2do nivel)
+    AspectRatio["🔍 Preservar\naspecto"] --> ProcImg
+    Formats["📁 JPG, JPEG,\nPNG"] --> ProcImg
+
+    %% Subramas de Formatos de Diapositiva (2do nivel)
+    Standard["📏 Estándar\n4:3"] --> FormatSlide
+    Widescreen["🖥️ Panorámica\n16:9"] --> FormatSlide
+
+    %% Subramas de Interfaz de Usuario (2do nivel)
+    Tabs["📑 Pestañas"] --> UI
+    Info["ℹ️ Información"] --> UI
+
+    %% Subramas de Gestión de Archivos (2do nivel)
+    FolderSelect["📂 Selección\ncarpeta"] --> FileManage
+    SavePPTX["💾 Guardar\nPPTX"] --> FileManage
+
+    %% Subramas de Diseño de Diapositivas (2do nivel)
+    Grid["📐 Cuadrícula\n2x2"] --> SlideDesign
+    Divider["📏 Línea\nseparadora"] --> SlideDesign
+
+    %% Subramas de Seguridad (2do nivel)
+    Verification["🔑 Verificación"] --> Security
+    License["📜 Licencia"] --> Security
+
+    %% Estilos
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef central fill:#4285F4,color:#fff,stroke:#2171C7,stroke-width:3px;
+    classDef primary fill:#5DADE2,color:#fff,stroke:#2E86C1,stroke-width:2px;
+    classDef secondary fill:#E8F4F8,stroke:#AED6F1,stroke-width:1px;
+    
+    %% Aplicación de estilos
+    class PPT_BUILDER central;
+    class ProcImg,FormatSlide,UI,FileManage,SlideDesign,Security primary;
+    class AspectRatio,Formats,Standard,Widescreen,Tabs,Info,FolderSelect,SavePPTX,Grid,Divider,Verification,License secondary;
+
+    %% Configuración de enlaces
+    linkStyle default stroke:#666,stroke-width:2px;
+
 
 ## Descripción del Sistema
 
