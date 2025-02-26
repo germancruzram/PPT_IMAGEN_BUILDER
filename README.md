@@ -3,16 +3,17 @@ Creador de diapostivas con imágenes
 
 
 # Mapa Mental del Sistema PPT-SLIDE-BUILDER
-flowchart TD
+````mermaid
+graph LR
     %% Nodo central
-    PPT_BUILDER(("📊 PPT-SLIDE\nBUILDER"))
+    PPT_BUILDER(("📊 PPT-SLIDE<br>BUILDER"))
     
     %% Nodos principales (categorías)
-    ProcImg{"🖼️ Procesamiento\nde Imágenes"}
-    FormatSlide{"📐 Formatos de\nDiapositiva"}
-    UI{"🖱️ Interfaz de\nUsuario"}
-    FileManage{"📁 Gestión de\nArchivos"}
-    SlideDesign{"🎨 Diseño de\nDiapositivas"}
+    ProcImg{"🖼️ Procesamiento<br>de Imágenes"}
+    FormatSlide{"📐 Formatos de<br>Diapositiva"}
+    UI{"🖱️ Interfaz de<br>Usuario"}
+    FileManage{"📁 Gestión de<br>Archivos"}
+    SlideDesign{"🎨 Diseño de<br>Diapositivas"}
     Security{"🔒 Seguridad"}
     
     %% Conexiones al nodo central
@@ -24,40 +25,30 @@ flowchart TD
     PPT_BUILDER --> Security
     
     %% Nodos secundarios para Procesamiento de Imágenes
-    AspectRatio["🔍 Preservar\naspecto"] --> ProcImg
-    Formats["📁 JPG, JPEG,\nPNG"] --> ProcImg
+    AspectRatio["🔍 Preservar<br>aspecto"] --> ProcImg
+    Formats["📁 JPG, JPEG,<br>PNG"] --> ProcImg
     
     %% Nodos secundarios para Formatos de Diapositiva
-    Standard["📏 Estándar\n4:3"] --> FormatSlide
-    Widescreen["🖥️ Panorámica\n16:9"] --> FormatSlide
+    Standard["📏 Estándar<br>4:3"] --> FormatSlide
+    Widescreen["🖥️ Panorámica<br>16:9"] --> FormatSlide
     
     %% Nodos secundarios para Interfaz de Usuario
     Tabs["📑 Pestañas"] --> UI
     Info["ℹ️ Información"] --> UI
     
     %% Nodos secundarios para Gestión de Archivos
-    FolderSelect["📂 Selección\ncarpeta"] --> FileManage
-    SavePPTX["💾 Guardar\nPPTX"] --> FileManage
+    FolderSelect["📂 Selección<br>carpeta"] --> FileManage
+    SavePPTX["💾 Guardar<br>PPTX"] --> FileManage
     
     %% Nodos secundarios para Diseño de Diapositivas
-    Grid["📐 Cuadrícula\n2x2"] --> SlideDesign
-    Divider["📏 Línea\nseparadora"] --> SlideDesign
+    Grid["📐 Cuadrícula<br>2x2"] --> SlideDesign
+    Divider["📏 Línea<br>separadora"] --> SlideDesign
     
     %% Nodos secundarios para Seguridad
     Verification["🔑 Verificación"] --> Security
     License["📜 Licencia"] --> Security
-    
-    %% Estilos
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef central fill:#4285F4,color:#fff,stroke:#2171C7,stroke-width:3px;
-    classDef primary fill:#5DADE2,color:#fff,stroke:#2E86C1,stroke-width:2px;
-    classDef secondary fill:#E8F4F8,stroke:#AED6F1,stroke-width:1px;
-    
-    %% Aplicación de estilos
-    class PPT_BUILDER central;
-    class ProcImg,FormatSlide,UI,FileManage,SlideDesign,Security primary;
-    class AspectRatio,Formats,Standard,Widescreen,Tabs,Info,FolderSelect,SavePPTX,Grid,Divider,Verification,License secondary;
 
+````
 
 
 ## Descripción del Sistema
