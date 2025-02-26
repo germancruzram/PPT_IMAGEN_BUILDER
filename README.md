@@ -3,7 +3,6 @@ Creador de diapostivas con imágenes
 
 
 # Mapa Mental del Sistema PPT-SLIDE-BUILDER
-
 flowchart TD
     %% Nodo central
     PPT_BUILDER(("📊 PPT-SLIDE\nBUILDER"))
